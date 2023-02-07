@@ -21,7 +21,7 @@ export default function Detalhes ({nome,nomeFazenda,logoFazenda,descricao,preco,
 }
 const estilos =StyleSheet.create({
     nome:{
-        color:"#464646",
+        color:"000",
         fontSize:26,
         lineHeight:42,
         fontWeight:"bold",
@@ -37,6 +37,7 @@ const estilos =StyleSheet.create({
         height:32,
         },
         nomeFazenda:{
+        color:"#CDCD00",
         fontSize:16,
         lineHeight:26,
         marginLeft:12,
@@ -44,12 +45,12 @@ const estilos =StyleSheet.create({
         
         },
         desc:{
-        color:"#A3A3A3",
+        color:"#0000CD",
         fontSize:16,
         lineHeight:26
         },
         preco:{
-        color:"#2A9F85",
+        color:"#00255",
         fontWeight:"bold",
         fontSize:26,
         lineHeight:42,
@@ -57,7 +58,7 @@ const estilos =StyleSheet.create({
         },
         botao:{
         marginTop:16,
-        backgroundColor:"#2A9F85",
+        backgroundColor:"#EEEE00",
         paddingVertical:16,
         borderRadius:6
         },

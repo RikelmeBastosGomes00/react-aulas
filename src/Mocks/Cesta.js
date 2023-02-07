@@ -1,47 +1,47 @@
 
 import logo from '../../assets/logo.png';
-import tomate from '../../assets/frutas/Tomate.png';
-import brocolis from '../../assets/frutas/Brócolis.png';
-import batata from '../../assets/frutas/Batata.png';
-import pepino from '../../assets/frutas/Pepino.png';
-import abobora from '../../assets/frutas/Abóbora.png';
+import Analista from '../../assets/frutas/Analista.png'
+import kidrobot from '../../assets/frutas/kidRobot.png';
+import Assistente from '../../assets/frutas/Assistente.png';
+import game from '../../assets/frutas/game.png';
+import kidtube from '../../assets/frutas/kid-tube.png';
 
 const cesta = {
 topo: {
-titulo:"Detalhes Da Cesta",
+titulo:"Escola de Robótica e Programação :",
 },
 detalhes :{
-nome:"Cesta De Verduras",
-nomeFazenda:"Jenny Jack Farm",
+nome:"Cursos ofertados",
+nomeFazenda:"codigokid",
 logoFazenda:logo,
-descricao:"Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
-preco:"R$60,00",
-botao:"Comprar",
+descricao:"Aprenda se divertindo e realize seus sonhos!",
+preco:"",
+botao:"Assinar",
 },
 itens: {
-    titulo: "Itens da cesta:",
+    titulo: "Cursos:",
     lista: [
       {
-        nome: "Tomate",
-        imagem: tomate,
+        nome: "Curso de Analista Tech",
+        imagem: Analista,
       },
         
        
       {
-        nome: "Brócolis",
-        imagem: brocolis,
+        nome: "Curso KidRobot - MIO",
+        imagem:kidrobot,
       },
       {
-        nome: "Batata",
-        imagem: batata,
+        nome: "Curso de Assistente de Redes e Infra",
+        imagem: Assistente,
       },
       {
-        nome: "Pepino",
-        imagem: pepino,
+        nome: "Curso de games",
+        imagem:game,
       },
       {
-        nome: "Abóbora",
-        imagem: abobora,
+        nome: "Curso de Youtuber",
+        imagem: kidtube,
       }
     ]
   }

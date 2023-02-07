@@ -20,12 +20,12 @@ marginHorizontal:16,
 alignItems:"center",
 
 imagem:{
-width:46,
-height:46,
+width:10,
+height:10,
 
 },
 nome:{
-fontSize:16,
+fontSize:20,
 lineHeight:26,
 marginLeft:11,
 color:"#464646"
